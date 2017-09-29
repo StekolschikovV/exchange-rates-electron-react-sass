@@ -1,0 +1,36 @@
+{
+  "name": "configuration-electron-gulp-react.js-sass",
+  "version": "1.0.0",
+  "description": "Курс валют",
+  "main": "main.js",
+  "author": "Vi",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+
+    "electron-reload": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-babel": "latest",
+    "gulp-concat": "latest",
+    "gulp-cssmin": "latest",
+    "gulp-ruby-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest"
+  },
+  "devDependencies": {
+    "electron": "latest"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}
